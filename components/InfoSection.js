@@ -9,6 +9,7 @@ function InfoSection({
     description,
     animate,
     Image,
+    buttonText,
 }) {
     let listDescs = null;
 
@@ -27,8 +28,8 @@ function InfoSection({
     }
 
     return (
-        <div className="min-h-screen w-screen bg-white flex items-center flex-col pt-24 px-10 lg:px-24 lg:flex-row lg:justify-center">
-            <div className="text-black max-w-2xl">
+        <div className="min-h-screen flex items-center flex-col bg-black pt-24 px-10 lg:px-24 lg:flex-row lg:justify-center">
+            <div className="text-white max-w-2xl">
                 {/* Section Title */}
                 <h2 className="text-4xl font-bold md:text-5xl lg:text-6xl">
                     {title}
@@ -46,8 +47,8 @@ function InfoSection({
                 <p className="mt-5 font-light">{listDescs}</p>
 
                 {/* Section Button */}
-                <button className="inline-block bg-black px-7 py-2 rounded-full shadow-lg text-white tracking-wide mt-5">
-                    Start Now
+                <button className="inline-block bg-white px-7 py-2 rounded-full shadow-lg text-black tracking-wide mt-5">
+                    {buttonText}
                 </button>
             </div>
 

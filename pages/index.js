@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Hero from "../components/Hero";
 import InfoSection from "../components/InfoSection";
 import Nav from "../components/Nav";
+import ServicesSection from "../components/ServicesSection";
 import HomeImage1 from "../images/HomeInfo1.svg";
 
 export default function Home() {
@@ -49,9 +50,10 @@ export default function Home() {
                 ]}
                 animate={isAnimated}
                 Image={HomeImage1}
+                buttonText="Learn More"
             />
 
-            <h1>Test</h1>
+            <ServicesSection />
         </div>
     );
 }
