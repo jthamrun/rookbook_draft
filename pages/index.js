@@ -5,6 +5,7 @@ import Hero from "../components/Hero";
 import InfoSection from "../components/InfoSection";
 import Nav from "../components/Nav";
 import ServicesSection from "../components/ServicesSection";
+import Contact from "../components/Contact";
 import HomeImage1 from "../images/HomeInfo1.svg";
 
 export default function Home() {
@@ -20,14 +21,9 @@ export default function Home() {
                 <title>Homestand | Rookbook</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-
-            {/* Header */}
             <Nav />
 
-            {/* Body */}
             <Hero />
-
-            {/* Info Section */}
             <InfoSection
                 title="About Us."
                 subtitle="Rookbook."
@@ -52,8 +48,8 @@ export default function Home() {
                 Image={HomeImage1}
                 buttonText="Learn More"
             />
-
             <ServicesSection />
+            <Contact />
         </div>
     );
 }

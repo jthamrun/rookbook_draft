@@ -28,7 +28,7 @@ function InfoSection({
     }
 
     return (
-        <div className="min-h-screen flex items-center flex-col bg-black pt-24 px-10 lg:px-24 lg:flex-row lg:justify-center">
+        <div className="min-h-screen flex items-center flex-col bg-black py-24 px-10 lg:px-24 lg:flex-row lg:justify-center">
             <div className="text-white max-w-2xl">
                 {/* Section Title */}
                 <h2 className="text-4xl font-bold md:text-5xl lg:text-6xl">
@@ -55,7 +55,7 @@ function InfoSection({
             <Image
                 className={`${
                     animate ? "" : "translate-x-full translate-y-full"
-                } mt-32 md:mt-28 lg:mt-0 md:max-w-xl transform transition duration-1000 ease-in-out`}
+                } mt-24 md:mt-28 lg:mt-0 md:max-w-xl transform transition duration-1000 ease-in-out`}
             />
         </div>
     );
