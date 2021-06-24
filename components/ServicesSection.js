@@ -2,7 +2,7 @@ import Service from "./Service";
 
 function ServicesSection() {
     return (
-        <div className="min-h-screen flex items-center justify-center flex-col bg-white text-black py-24">
+        <div className="min-h-[75vh] flex items-center justify-center flex-col bg-white text-black py-24">
             <h2 className="text-4xl font-bold md:text-5xl lg:text-6xl">
                 Our Philosophy
             </h2>

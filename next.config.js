@@ -9,6 +9,6 @@ module.exports = {
     },
 
     images: {
-        domains: ["static.wixstatic.com"],
+        domains: ["static.wixstatic.com", "braintreepayments", "i.imgur.com"],
     },
 };
